@@ -1,0 +1,109 @@
+header {
+    background-color:  black;
+    width:  100%;       
+}
+
+
+nav {    
+    display:  inline-block;     
+    width:  100%;     
+    background:  gray;
+    margin-left:  0;
+    padding:  5px;    
+ }
+
+nav ul {
+    list-style-type: none;
+    align-items:  center;    
+ }
+
+nav ul li {
+    padding-left:  50px;    
+} 
+
+li:hover {
+    transform:  scale(2);  
+}
+
+footer img:hover {
+    transform:  scale(2);
+}
+
+.about-us {
+    display:  flex;
+    background-color:  rgb(168, 168, 230);
+    text-align:  justify;
+    padding:  20px;
+    align-items:  center;   
+    font-family:  Arial, Helvetica, sans-serif;
+    font:  bold;
+    font-size:  20px; 
+    height:  fit-content;
+    
+}
+
+#games {
+    background-color:  gray;
+    padding:  10px;
+}
+ul {
+    background:  gray;
+    display:  inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+    margin:  auto;
+    padding:  auto; 
+    justify-content: center;    
+}
+
+ul img {
+    height:  auto;
+    width:  auto;
+    padding:  20px;
+}
+
+section {
+    display:  flex;
+    padding:  auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:  40px;
+}
+
+footer {
+    display:  flex;       
+    background:  blue;
+    margin:  auto;
+    padding:  25px;
+    justify-content:  left;
+}
+
+footer ul {
+    margin:  0;
+    padding:  0;
+    list-style-type:  none;
+    padding-left:  0px;
+}
+
+footer img {
+    height:  30px;
+    width:  30px;
+}
+
+.ourgamers {
+    display:  flex;
+    background-color:  rgb(168, 168, 230);
+    text-align:  justify;
+    padding:  20px;
+    align-items:  center;   
+    font-family:  Arial, Helvetica, sans-serif;
+    font:  bold;
+    font-size:  20px; 
+    height:  fit-content;
+}
+    
+.ourgamers img {
+    height:  100px;
+    width:  100px;
+    padding-right:  20px;
+}
+
